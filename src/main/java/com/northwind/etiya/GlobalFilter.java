@@ -24,6 +24,8 @@ public class GlobalFilter implements Filter {
             FilterChain chain) throws IOException, ServletException {
 
         HttpServletRequest req = (HttpServletRequest) request;
+        ((HttpServletResponse) response).addHeader("Access-Control-Allow-Methods", "GET,POST,OPTIONS,DELETE,PUT");
+        ((HttpServletResponse) response).addHeader("Access-Control-Allow-Origin", "*");
         String path = ((HttpServletRequest) request).getRequestURI();
         String x = req.getHeader("Authorization");
         if(path.contains("swagger") || path.contains("api-docs")){
@@ -36,6 +38,7 @@ public class GlobalFilter implements Filter {
             errorResponse.setMessage("Unauthorized Access");
             byte[] responseToSend = restResponseBytes(errorResponse);
             ((HttpServletResponse) response).setHeader("Content-Type", "application/json");
+            
             ((HttpServletResponse) response).setStatus(401);
             response.getOutputStream().write(responseToSend);
         }else{
