@@ -20,8 +20,6 @@ public class EtiyaApplication {
 	@ExceptionHandler({ UnauthorizedException.class})
 	@ResponseStatus(HttpStatus.UNAUTHORIZED)
 	public String handleException(UnauthorizedException exception) {
-		//
-		System.out.println("Exce");
 		return "Unauthorized";
 	}
 
