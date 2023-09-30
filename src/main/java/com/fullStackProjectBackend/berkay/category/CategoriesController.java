@@ -1,4 +1,4 @@
-package com.northwind.etiya.category;
+package com.fullStackProjectBackend.berkay.category;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

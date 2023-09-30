@@ -1,4 +1,4 @@
-package com.northwind.etiya.supplier;
+package com.fullStackProjectBackend.berkay.supplier;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

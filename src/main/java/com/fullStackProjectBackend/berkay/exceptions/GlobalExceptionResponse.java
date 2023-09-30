@@ -1,4 +1,4 @@
-package com.northwind.etiya.exceptions;
+package com.fullStackProjectBackend.berkay.exceptions;
 
 
 import lombok.AllArgsConstructor;

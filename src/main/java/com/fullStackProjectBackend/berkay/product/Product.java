@@ -1,7 +1,7 @@
-package com.northwind.etiya.product;
+package com.fullStackProjectBackend.berkay.product;
 
-import com.northwind.etiya.category.Category;
-import com.northwind.etiya.supplier.Supplier;
+import com.fullStackProjectBackend.berkay.category.Category;
+import com.fullStackProjectBackend.berkay.supplier.Supplier;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

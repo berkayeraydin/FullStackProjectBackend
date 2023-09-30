@@ -1,4 +1,4 @@
-package com.northwind.etiya.product;
+package com.fullStackProjectBackend.berkay.product;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

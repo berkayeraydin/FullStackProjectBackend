@@ -1,4 +1,4 @@
-package com.northwind.etiya;
+package com.fullStackProjectBackend.berkay;
 
 import lombok.Data;
 

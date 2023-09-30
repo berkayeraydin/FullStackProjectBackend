@@ -1,4 +1,4 @@
-package com.northwind.etiya.supplier;
+package com.fullStackProjectBackend.berkay.supplier;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

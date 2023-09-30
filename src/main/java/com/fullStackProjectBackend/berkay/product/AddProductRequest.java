@@ -1,4 +1,4 @@
-package com.northwind.etiya.product;
+package com.fullStackProjectBackend.berkay.product;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;

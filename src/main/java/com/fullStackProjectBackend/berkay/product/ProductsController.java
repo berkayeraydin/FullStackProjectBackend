@@ -1,8 +1,7 @@
-package com.northwind.etiya.product;
+package com.fullStackProjectBackend.berkay.product;
 
-import com.northwind.etiya.category.Category;
-import com.northwind.etiya.exceptions.types.BusinessException;
-import com.northwind.etiya.supplier.Supplier;
+import com.fullStackProjectBackend.berkay.category.Category;
+import com.fullStackProjectBackend.berkay.supplier.Supplier;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

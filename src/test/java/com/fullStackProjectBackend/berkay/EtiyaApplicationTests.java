@@ -1,4 +1,4 @@
-package com.northwind.etiya;
+package com.fullStackProjectBackend.berkay;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

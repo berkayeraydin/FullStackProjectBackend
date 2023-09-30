@@ -1,7 +1,7 @@
-package com.northwind.etiya.category;
+package com.fullStackProjectBackend.berkay.category;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.northwind.etiya.product.Product;
+import com.fullStackProjectBackend.berkay.product.Product;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

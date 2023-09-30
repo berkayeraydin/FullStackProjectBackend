@@ -1,4 +1,4 @@
-package com.northwind.etiya.product;
+package com.fullStackProjectBackend.berkay.product;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,6 +1,6 @@
-package com.northwind.etiya;
+package com.fullStackProjectBackend.berkay;
 
-import com.northwind.etiya.exceptions.types.UnauthorizedException;
+import com.fullStackProjectBackend.berkay.exceptions.types.UnauthorizedException;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.http.HttpStatus;

@@ -1,4 +1,4 @@
-package com.northwind.etiya.exceptions.types;
+package com.fullStackProjectBackend.berkay.exceptions.types;
 
 
 public class BusinessException extends RuntimeException{
