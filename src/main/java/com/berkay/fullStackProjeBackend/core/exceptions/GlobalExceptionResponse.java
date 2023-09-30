@@ -1,4 +1,4 @@
-package com.fullStackProjectBackend.berkay.exceptions;
+package com.berkay.fullStackProjeBackend.core.exceptions;
 
 
 import lombok.AllArgsConstructor;

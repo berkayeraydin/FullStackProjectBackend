@@ -1,6 +1,6 @@
-package com.fullStackProjectBackend.berkay.exceptions;
+package com.berkay.fullStackProjeBackend.core.exceptions;
 
-import com.fullStackProjectBackend.berkay.exceptions.types.BusinessException;
+import com.berkay.fullStackProjeBackend.core.exceptions.types.BusinessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;

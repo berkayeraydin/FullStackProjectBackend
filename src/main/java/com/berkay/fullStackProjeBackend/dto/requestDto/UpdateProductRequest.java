@@ -1,4 +1,4 @@
-package com.fullStackProjectBackend.berkay.product;
+package com.berkay.fullStackProjeBackend.dto.requestDto;
 
 import lombok.Getter;
 import lombok.Setter;

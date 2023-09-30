@@ -1,14 +1,6 @@
-package com.fullStackProjectBackend.berkay;
+package com.berkay.fullStackProjeBackend.core.config;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import jakarta.servlet.*;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
-import org.springframework.core.annotation.Order;
-import org.springframework.stereotype.Component;
-
-import java.io.IOException;
-
+/*
 @Component
 @Order(1)
 public class GlobalFilter implements Filter {
@@ -35,7 +27,7 @@ public class GlobalFilter implements Filter {
             chain.doFilter(request, response);
             return;
         }
-        if(( x==null || !x.equals("Bearer Etiya")) ){
+        if(( x==null || !x.equals("Bearer ERAYDIN")) ){
             ErrorResponse errorResponse = new ErrorResponse();
             errorResponse.setCode(401);
             errorResponse.setMessage("Unauthorized Access");
@@ -55,3 +47,5 @@ public class GlobalFilter implements Filter {
     }
     // other methods
 }
+
+ */

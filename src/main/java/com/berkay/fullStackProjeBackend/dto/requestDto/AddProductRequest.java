@@ -1,4 +1,4 @@
-package com.fullStackProjectBackend.berkay.product;
+package com.berkay.fullStackProjeBackend.dto.requestDto;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;

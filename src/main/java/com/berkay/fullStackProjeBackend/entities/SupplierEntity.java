@@ -1,4 +1,4 @@
-package com.fullStackProjectBackend.berkay.supplier;
+package com.berkay.fullStackProjeBackend.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Supplier {
+public class SupplierEntity {
     @Id
     @Column(name="supplier_id")
     private int supplierId;

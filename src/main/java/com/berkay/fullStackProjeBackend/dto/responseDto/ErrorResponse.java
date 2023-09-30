@@ -1,4 +1,4 @@
-package com.fullStackProjectBackend.berkay;
+package com.berkay.fullStackProjeBackend.dto.responseDto;
 
 import lombok.Data;
 

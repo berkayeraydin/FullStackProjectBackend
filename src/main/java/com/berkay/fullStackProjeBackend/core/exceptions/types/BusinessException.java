@@ -1,4 +1,4 @@
-package com.fullStackProjectBackend.berkay.exceptions.types;
+package com.berkay.fullStackProjeBackend.core.exceptions.types;
 
 
 public class BusinessException extends RuntimeException{

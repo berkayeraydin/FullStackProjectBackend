@@ -1,6 +1,6 @@
-package com.fullStackProjectBackend.berkay;
+package com.berkay.fullStackProjeBackend;
 
-import com.fullStackProjectBackend.berkay.exceptions.types.UnauthorizedException;
+import com.berkay.fullStackProjeBackend.core.exceptions.types.UnauthorizedException;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.http.HttpStatus;
@@ -11,10 +11,10 @@ import org.springframework.web.server.ResponseStatusException;
 
 @SpringBootApplication
 @RestControllerAdvice
-public class EtiyaApplication {
+public class FullStackProjeBackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EtiyaApplication.class, args);
+		SpringApplication.run(FullStackProjeBackendApplication.class, args);
 	}
 
 	@ExceptionHandler({ UnauthorizedException.class})

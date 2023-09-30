@@ -1,7 +1,5 @@
-package com.fullStackProjectBackend.berkay.product;
+package com.berkay.fullStackProjeBackend.entities;
 
-import com.fullStackProjectBackend.berkay.category.Category;
-import com.fullStackProjectBackend.berkay.supplier.Supplier;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -12,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Table(name="products")
 @NoArgsConstructor
 @AllArgsConstructor
-public class Product {
+public class ProductEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="product_id")
@@ -33,9 +31,9 @@ public class Product {
 
     @ManyToOne()
     @JoinColumn(name="category_id")
-    private Category category;
+    private CategoryEntity categoryEntity;
 
     @ManyToOne()
     @JoinColumn(name="supplier_id")
-    private Supplier supplier;
+    private SupplierEntity supplierEntity;
 }

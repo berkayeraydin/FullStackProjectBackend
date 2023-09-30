@@ -1,7 +1,6 @@
-package com.fullStackProjectBackend.berkay.category;
+package com.berkay.fullStackProjeBackend.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fullStackProjectBackend.berkay.product.Product;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -16,7 +15,7 @@ import java.util.List;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Category {
+public class CategoryEntity {
     @Id
     @Column(name="category_id")
     private int categoryId;
@@ -27,7 +26,7 @@ public class Category {
     @Column(name="description")
     private String description;
 
-    @OneToMany(mappedBy = "category")
+    @OneToMany(mappedBy = "categoryEntity")
     @JsonIgnore()
-    private List<Product> products;
+    private List<ProductEntity> productEntities;
 }
